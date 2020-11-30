@@ -2315,15 +2315,15 @@ Rate.Skill.Discovery = 1
 #                     1 - (Rate.Drop.Item.Referenced)
 #                     1 - (Rate.Drop.Money)
 
-Rate.Drop.Item.Poor             = 1
-Rate.Drop.Item.Normal           = 1
-Rate.Drop.Item.Uncommon         = 1
-Rate.Drop.Item.Rare             = 1
-Rate.Drop.Item.Epic             = 1
-Rate.Drop.Item.Legendary        = 1
-Rate.Drop.Item.Artifact         = 1
-Rate.Drop.Item.Referenced       = 1
-Rate.Drop.Money                 = 1
+Rate.Drop.Item.Poor             = 10
+Rate.Drop.Item.Normal           = 10
+Rate.Drop.Item.Uncommon         = 10
+Rate.Drop.Item.Rare             = 10
+Rate.Drop.Item.Epic             = 10
+Rate.Drop.Item.Legendary        = 10
+Rate.Drop.Item.Artifact         = 10
+Rate.Drop.Item.Referenced       = 10
+Rate.Drop.Money                 = 10
 
 #
 #    Rate.SellValue.Item.Poor
@@ -2399,9 +2399,9 @@ Rate.Drop.Item.ReferencedAmount = 1
 #                     1 - (Rate.XP.Explore)
 #                     1	- (Rate.XP.Pet)
 
-Rate.XP.Kill    = 1
+Rate.XP.Kill    = 5
 Rate.XP.Quest   = 1
-Rate.XP.Explore = 1
+Rate.XP.Explore = 5
 Rate.XP.Pet     = 1
 
 #
@@ -2410,7 +2410,7 @@ Rate.XP.Pet     = 1
 #                     it works when Battleground.GiveXPForKills = 1
 #        Default:     1
 
-Rate.XP.BattlegroundKill = 1
+Rate.XP.BattlegroundKill = 10
 
 #
 #    Rate.RepairCost
@@ -2507,7 +2507,7 @@ Rate.Reputation.RecruitAFriendBonus = 0.1
 #        Description: Movement speed rate.
 #        Default:     1
 
-Rate.MoveSpeed = 1
+Rate.MoveSpeed = 2
 
 #
 #    Rate.InstanceResetTime
@@ -2538,10 +2538,10 @@ Rate.Pet.LevelXP = 0.05
 #                     1 - (SkillGain.Gathering)
 #                     1 - (SkillGain.Weapon)
 
-SkillGain.Crafting  = 1
-SkillGain.Defense   = 1
-SkillGain.Gathering = 1
-SkillGain.Weapon    = 1
+SkillGain.Crafting  = 5
+SkillGain.Defense   = 5
+SkillGain.Gathering = 5
+SkillGain.Weapon    = 5
 
 #
 #    SkillChance.Orange
